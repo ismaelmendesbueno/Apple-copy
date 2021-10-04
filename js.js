@@ -17,3 +17,16 @@ fechar.addEventListener("click", function(){
     var inp = document.querySelector(".inp")
     inp.classList.add("hide")
 })
+
+let abrir = document.querySelector("#open")
+
+abrir.addEventListener("mouseup", function(){
+    var bag = document.querySelector("#bag")
+    bag.classList.toggle("bag")
+
+    
+})
+
+
+
+
