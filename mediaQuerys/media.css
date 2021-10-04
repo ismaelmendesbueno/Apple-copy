@@ -1,0 +1,52 @@
+@media only screen and (max-width: 800px) {
+    .menu ul {
+        display: none;
+    }
+
+    .menuMobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: rgba(0,0,0,0.8);
+        width: 100%;
+        height: 45px;
+
+        z-index: 1;
+        
+        padding: 0 20px 0 20px;
+
+        position: fixed;
+    }
+
+    .menuMobile img:nth-child(1){
+        width: 16px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .menuMobile img:nth-child(2){
+        width: 16px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .menuMobile img:nth-child(3){
+        width: 30px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .menuMob{
+        background: rgb(10, 10, 10, 0.9);
+
+        width: 100%;
+        height: 100%;
+
+        position: fixed;
+
+        z-index: 999;
+
+    }
+
+
+}

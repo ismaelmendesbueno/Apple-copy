@@ -23,8 +23,6 @@ let abrir = document.querySelector("#open")
 abrir.addEventListener("mouseup", function(){
     var bag = document.querySelector("#bag")
     bag.classList.toggle("bag")
-
-    
 })
 
 

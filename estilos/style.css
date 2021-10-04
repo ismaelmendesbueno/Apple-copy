@@ -8,22 +8,23 @@
 
 
 
-
 .menu ul {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
     height: 45px;
     background: rgba(0,0,0,0.8);
     z-index: 999;
     position: fixed;
+
+    padding: 0 20vh 0 20vh;
 }
 
 .menu ul li {
     display: inline-block;
-    padding-left: 70px;
     text-decoration: none;
+   
 }
 
 .title{
@@ -84,8 +85,9 @@
 }
 
 .imagem img {
-    height: 50vh;
+    max-height: 50vh;
     margin-top: 12vh;
+    max-width: 100%;
 }
 
 .iphone13 {
@@ -95,7 +97,7 @@
     width: 100%;
     height: 110vh;
 
-    background-image: url(./images/hero_1_static__d195o2nfxt26_large.jpg);
+    background-image: url(../images/hero_1_static__d195o2nfxt26_large.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
     background-position: 0vh;
@@ -130,7 +132,7 @@
 
     height: 650px;
 
-    background-image: url(./images/hero_lte__fbsea3yn8wy2_large.jpg);
+    background-image: url(../images/hero_lte__fbsea3yn8wy2_large.jpg);
     background-position: center;  
 }
 
@@ -168,32 +170,32 @@
 }
 
 .caixa.one {
-    background-image: url(./images/homedobrando.jpg);
+    background-image: url(../images/homedobrando.jpg);
     background-position: center;
 }
 
 .caixa.two {
-    background-image: url(./images/cllmao.jpg);
+    background-image: url(../images/cllmao.jpg);
     background-position: center;
 }
 
 .caixa.tree {
-    background-image: url(./images/imac.jpg);
+    background-image: url(../images/imac.jpg);
     background-position: center;
 }
 
 .caixa.four {
-    background-image: url(./images/airtag.jpg);
+    background-image: url(../images/airtag.jpg);
     background-position: center;
 }
 
 .caixa.five {
-    background-image: url(./images/card.jpg);
+    background-image: url(../images/card.jpg);
     background-position: center;
 }
 
 .caixa.sixs {
-    background-image: url(./images/fime.jpg);
+    background-image: url(../images/fime.jpg);
     background-position: center;
 }
 
@@ -247,7 +249,7 @@
 .foot {
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    min-width: 70%;
     height: 100%;
 }
 
@@ -403,4 +405,8 @@ footer div {
     bottom: 0;
     left: 400px;
     bottom: -8px;
+}
+
+.menuMobile {
+    display: none;
 }
